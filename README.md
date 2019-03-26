@@ -1,1 +1,0 @@
-# Insurance-Database-Management-System
