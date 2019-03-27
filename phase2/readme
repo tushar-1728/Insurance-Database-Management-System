@@ -1,0 +1,15 @@
+create table and constraints contains the commands to create tables and constraints.
+
+address.sql - data for address table
+agent.sql - data for agent table
+agnt_password.sql - data for agnt_password table
+claim.sql - data for claim table
+cust_password.sql - data for cust_password table
+cust_policy - data for cust_policy table
+cust_policy table contains policies taken by various customers linked through customer ssn
+customer.sql - data for customer table
+payment.sql - data for payment table
+payment table contains all data of all the payments made by the customer
+policy.sql - data for policy table
+policy table consists of all the policies sold by insurance company
+query.sql - contains queries to be executed
