@@ -13,3 +13,4 @@ payment table contains all data of all the payments made by the customer
 policy.sql - data for policy table
 policy table consists of all the policies sold by insurance company
 query.sql - contains queries to be executed
+The php folder contains all web based files. UIpage1.html is the home page of the web application.
