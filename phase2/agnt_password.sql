@@ -22,6 +22,7 @@ insert into agnt_password values(1000000021,'GPPUDfhno');
 insert into agnt_password values(1000000022,'Z7BIDCX');
 insert into agnt_password values(1000000023,'HCun2at88HeF');
 insert into agnt_password values(1000000024,'d6ddJwMoSX');
+insert into agnt_password values(1000000025,'d6ddJklpd');
 insert into agnt_password values(1000000026,'sSkH3CgQ');
 insert into agnt_password values(1000000027,'7Na6GF');
 insert into agnt_password values(1000000028,'AJTT2b');
