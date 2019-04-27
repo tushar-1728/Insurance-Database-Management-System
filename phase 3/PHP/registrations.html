@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrations</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="UI1style.css">
+    <style>
+        #box {
+            width: 625px;
+            padding: 100px;
+            position:relative;
+            left:30%;
+             }
+        #inner{
+            padding:50px;
+            background-color:antiquewhite;
+        }
+        #sub {
+            background-color: #f94f59;
+            width: 200px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top:12px;
+            padding-bottom:12px;
+        }
+        #unoimg{
+            height:850px;
+            width:425px;
+            position:relative;
+            top:-950px;
+            left:5%;
+        }
+        #duosimg {
+            height: 850px;
+            width: 425px;
+            position: relative;
+            top: -950px;
+            left:40%;
+        }
+        #logo{
+            position:relative;
+            left:27%;
+        }
+    </style>
+</head>
+<body style="align-content:center">
+    <div class="container-fluid" align="center">
+        <div class="topnav">
+            <div id="ele1" style="padding-left: 220px; " align="center">
+                <a href="UI_page1.html">Home</a>
+                <a href="Products.html">Products</a>
+                <a href="Group_Schemes.html">Group Schemes</a>
+                <a href="Customer_Services.html">Customer Services</a>
+                <a href="Premium_payment.html">Premium payment</a>
+                <a href="Plan_nav.html">Plan Nav</a>
+                <a href="Login.php">Login</a>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <img id="logo" src="liclogo.jpg" width=" 700" height=" 140" />
+    <div id="box">
+        <div style="background-color:#f94f59;color:aliceblue;font-size:25px;text-align:center">
+            <br />
+            <i>Join Us</i>
+            <br />
+            <br />
+            </div>
+        <div id="inner">
+           <b><i> Enter The Following details:</i></b> <br /><br />
+
+        <form method="GET" action="actionform1.php">
+            <input placeholder="Ssn" type="text" name="Ssn"><br /><br />
+            <input placeholder="password" type="text" name="password"><br /><br />
+            <input placeholder="First name" type="text" name="Fname"><br /><br />
+            <input placeholder="Last name" type="text" name="Lname"><br /><br />
+            <input placeholder="Minit" type="text" max="1" maxlength="1"
+                   name="Minit"><br /><br />
+            Date Of Birth:<br/>
+            <input placeholder="date of birth" type="date" name="DOB"><br /><br />
+            <input placeholder="Income" type="number" name="income"><br /><br />
+            <input placeholder="Policy_num" type="number" name="Policy_num"><br /><br />
+            <input placeholder="Phone" type="number" name="Phone"><br /><br />
+            <input placeholder="Agent_id" type="number" name="Agent_id"><br /><br />
+            Purchase Date:<br/>
+            <input placeholder="Purchase_date" type="date" name="Purchase_date"><br /><br />
+            <input placeholder="Claim_num" type="number" name="Claim_num"><br /><br />
+            <input id="sub" type="submit" name="submit" value="submit"><br /><br />
+        </form>
+        </div>
+    </div>
+<img id="unoimg" src="whyinsure.jpg" />
+<img id="duosimg" src="benefits.jpg" />
+</body>
+</html>
